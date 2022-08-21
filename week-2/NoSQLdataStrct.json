@@ -1,0 +1,61 @@
+
+[
+{
+    "CUSTOMER": [
+        {
+            "_id": "001",
+            "firstName":"Mabel",
+            "lastName": "Phiseme",
+            "dateOfBirth": "oct 19, 1995",
+            "username": "mjohn",
+            "INVOICE": [
+                {
+                    "_id":"0010",
+                    "createDate": "12/10/2022",
+                    "shipDate": "12/13/2022",
+                    "subtotal": "$150",
+                    "LINEITEM": [
+                        {
+                            "_id":"0011",
+                            "productName": "Bike",
+                            "price": "$300",            
+                            "qty": "2"
+                
+                        }
+                    ]
+                }   
+            ]       
+        }
+
+    ]
+},
+
+{
+    "STUDENT": [
+        {
+            "student": "2",
+            "firstName":"Jacob",
+            "lastName": "Thomas",
+            "ENROLLMENT":[
+                {
+                   "term": "Term 2 winter",
+                   "gpa": "3.5",
+                   "startDate": "2/3/22",
+                   "endDate": "4/6/22",
+                   "COURSE": [
+                    {
+                        "coursed": "Enterprise JavaScript",
+                        "description": "JavaScript flexible programming language.",
+                        "instructor": "Professor Nelson",
+                        "score": "89",
+                        "letterGrade": "B"
+                    }
+                     
+                ]
+                }
+            ]
+        }
+    ]          
+
+}
+]
