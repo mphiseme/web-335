@@ -1,0 +1,50 @@
+{
+    "USER": 
+        {            
+            "firstName":"Mabel",
+            "lastName": "Phiseme",            
+            "ROLE": [
+                {
+                    "_id":"0010",
+                    "title": "admin",                    
+                    "PERMISSION": [
+                        {
+                            "_id":"0011",
+                            "description": "Reset password"                           
+                        }
+                    ]
+                },  
+                {
+                    "_id":"0010",
+                    "title": "editor",                    
+                    "PERMISSION": [
+                        {
+                            "_id":"0012",
+                            "description": "edit website contents"                           
+                        }
+                    ]
+                },
+                {
+                    "_id":"00122",
+                    "title": "user",                    
+                    "PERMISSION": [
+                        {
+                            "_id":"0011",
+                            "description": "create account"                           
+                        }
+                    ]
+                },  
+                {
+                    "_id":"00133",
+                    "title": "mananger",                    
+                    "PERMISSION": [
+                        {
+                            "_id":"0012",
+                            "description": "manage all accounts"                           
+                        }
+                    ]
+                }
+            ]       
+        }    
+}
+

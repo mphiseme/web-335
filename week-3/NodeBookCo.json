@@ -1,0 +1,36 @@
+{ 
+    "Author": {
+        "author_last_name": "Jackie",
+        "author_first_name": "Hill",
+        "author_email": "jhill@bookj.com",
+        "author_phone":"502-111-1111",
+        "books": [
+            {
+                "book_name": "rise",
+                "publisher_name": "Crossway Bibles",
+                "book_isbn": "978-0-529-12099-1",
+                "publisher_code": "529",
+                "book_price": "$23",
+                "publisher_address": "Minneapolis, MN"
+            },
+            {
+                "book_name": "Get Unrealistic",
+                "publisher_name": "Deblear Snell",
+                "book_isbn": "979-8-9858735-0-4",
+                "publisher_code": "8",
+                "book_price": "$15",
+                "publisher_address": "Huntsville Alabama"
+            },
+            {
+                "book_name": "Unpopular Culture",
+                "publisher_name": "Hillsong Music Publisher",
+                "book_isbn": "978-0-281-07631-4",
+                "publisher_code": "281",
+                "book_price": "$10",
+                "publisher_address": "Huntsville Alabama"
+            }
+            
+        ]
+    } 
+    
+}
