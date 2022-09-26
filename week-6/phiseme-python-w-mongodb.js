@@ -73,7 +73,7 @@ db.houses.aggregate(
         {
             $match:
             {
-                houseId:"h1009"
+                mascot:"Eagle"
             }
         }, 
         {
@@ -86,3 +86,4 @@ db.houses.aggregate(
             }
         }
     ])
+    
